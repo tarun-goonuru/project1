@@ -1,0 +1,236 @@
+/* #F93 */
+/* #C60 */
+
+body,html{
+    background-image: url('img/bg3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+}
+#header {
+    background-color:white;
+    color:white;
+    text-align:center;
+    padding:5px; 
+    border-radius:5px;
+/*    background: #fff url('Penguins.jpg') no-repeat top left;*/
+}
+#header #nav1{
+    line-height:30px;
+    background-color:red;
+    height:85px;
+    width:200px;
+    float:left;
+    padding:5px;
+    background: #fff url('img/tech.gif') no-repeat top left;
+}
+
+#header_image {
+    background-color:linen;
+    color:white;
+    text-align:center;
+    padding:5px; 
+    border-radius:5px;
+    height: 300px;
+    width: 100%;
+
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+/*      margin: auto;*/
+  }
+/* ............. Navigation start .......... */
+nav{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:100%;
+    width:250px;
+    float:left;
+    padding:5px; 
+}
+/* ............... section Start ................*/
+#section {
+    width:850px;
+    height: 100%;
+    float:left;
+    padding:10px;
+    text-decoration-color: red;
+}
+
+.col-md-3 {
+    background-color:lightsalmon;
+}
+
+/* ............... aside Start ...............*/
+#aside{
+    float: right;
+    background-color: #eeeeee;
+    height:500px;
+    width:200px;
+/*    padding: 10px;*/
+}
+#aside #aside_menu_list a:link ,#section p a{
+    
+    text-align: center;
+    text-decoration:none;
+    color: darkgoldenrod;
+    font: 90% "Lucida Sans Unicode", "Bitstream Vera Sans", 
+        "Trebuchet Unicode MS","Lucida Grande", Verdana, Helvetica, sans-serif;    
+}
+#aside #aside_menu_list a:hover ,#section p a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+#aside #aside_menu_list a:active ,#section p a:active{
+    color: red;
+}
+#aside #aside_menu_list{
+    width: 220px;
+    height: 300px;
+    padding:30px;   
+}
+/* .................   images css .....    */
+#gallery div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+#gallery div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+#gallery div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+#gallery div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 200px;
+  margin: 5px;
+}
+
+/* ........... footer css ............*/
+footer{
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	  
+}
+
+/* .............  css for menus ...............*/
+#cssmenu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", 
+      "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: auto;
+}
+#cssmenu ul {
+  background: #ff9933;
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+}
+#cssmenu li {
+  float: left;
+  padding: 0px 0px 0px 15px;
+}
+#cssmenu li a {
+  color: #000;
+  display: block;
+  font-weight: normal;
+  line-height: 50px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+#cssmenu li a:hover {
+  background: #cc6600;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+}
+#cssmenu ul li:hover a {
+  background: #cc6600;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cssmenu li ul {
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 200px;
+  z-index: 200;
+}
+#cssmenu li:hover ul {
+  display: block;
+}
+#cssmenu li li {
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background: #ff9933;
+  /*this is where the rounded corners for the dropdown disappears*/
+
+}
+#cssmenu li:hover li a {
+  background: none;
+}
+#cssmenu li ul a {
+  display: block;
+  height: 50px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+#cssmenu li ul a:hover,
+#cssmenu li ul li:hover a {
+  border: 0px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #cc6600;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+}
+.op_logout{
+  background: #cc6600;
+  color: #FFFFFF;
+  text-decoration: none;
+  float: right;
+}
