@@ -60,10 +60,10 @@
         <li class='has-sub'><a href='#'><span>Services</span></a>
             <ul>
                 <li><a href='Application_service.php'><span>Application Development</span></a></li>
-                <li><a href='#'><span>Big Data</span></a></li>
-                <li><a href='#'><span>Data Warehousing</span></a></li>
-                <li><a href='#'><span>Analytics & Modeling</span></a></li>
-                <li><a href='#'><span>Model Governance & Audit</span></a></li>
+                <li><a href='bigdata_serv.php'><span>Big Data</span></a></li>
+                <li><a href='Data_Warehousing_serv.php'><span>Data Warehousing</span></a></li>
+                <li><a href='anly_model_serv.php'><span>Analytics & Modeling</span></a></li>
+                <li><a href='modelgov_audit_serv.php'><span>Model Governance & Audit</span></a></li>
                 <li><a href='#'><span>Data & Information Managem</span></a></li>
                 <li><a href='#'><span>Cloud & Infrastructure</span></a></li>
                 <li><a href='#'><span>Quality Assurance</span></a></li>
