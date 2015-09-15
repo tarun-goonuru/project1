@@ -60,10 +60,10 @@
         <li class='has-sub'><a href='#'><span>Services</span></a>
             <ul>
                 <li><a href='Application_service.php'><span>Application Development</span></a></li>
-                <li><a href='#'><span>Big Data</span></a></li>
-                <li><a href='#'><span>Data Warehousing</span></a></li>
-                <li><a href='#'><span>Analytics & Modeling</span></a></li>
-                <li><a href='#'><span>Model Governance & Audit</span></a></li>
+                <li><a href='bigdata_serv.php'><span>Big Data</span></a></li>
+                <li><a href='Data_Warehousing_serv.php'><span>Data Warehousing</span></a></li>
+                <li><a href='anly_model_serv.php'><span>Analytics & Modeling</span></a></li>
+                <li><a href='modelgov_audit_serv.php'><span>Model Governance & Audit</span></a></li>
                 <li><a href='#'><span>Data & Information Managem</span></a></li>
                 <li><a href='#'><span>Cloud & Infrastructure</span></a></li>
                 <li><a href='#'><span>Quality Assurance</span></a></li>
@@ -169,28 +169,28 @@
                             <a href="Application_service.php" class="active-trail active">Application Development</a>
                         </li>
                         <li class="dropdown">
-                            <a href="videos.php" class="active-trail active">Big Data</a>
+                            <a href="bigdata_serv.php" class="active-trail active">Big Data</a>
                         </li>
                         <li class="dropdown">
-                            <a href="videos.php" class="active-trail active">Data Warehousing</a>
+                            <a href="Data_Warehousing_serv.php" class="active-trail active">Data Warehousing</a>
                         </li>
                         <li class="dropdown">
-                            <a href="videos.php" class="active-trail active">Analytics & Modeling</a>
+                            <a href="anly_model_serv.php" class="active-trail active">Analytics & Modeling</a>
                         </li>
                         <li class="dropdown">
-                            <a href="videos.php" class="active-trail active">Model Governance & Audit</a>
+                            <a href="modelgov_audit_serv.php" class="active-trail active">Model Governance & Audit</a>
                         </li>
                         <li class="dropdown">
-                            <a href="videos.php" class="active-trail active">Data & Information Management</a>
+                            <a href="#" class="active-trail active">Data & Information Management</a>
                         </li><br>
                         <li class="dropdown">
-                            <a href="videos.php" class="active-trail active">Cloud & Infrastructure</a>
+                            <a href="#" class="active-trail active">Cloud & Infrastructure</a>
                         </li>
                         <li class="dropdown">
-                            <a href="videos.php" class="active-trail active">Quality Assurance</a>
+                            <a href="#" class="active-trail active">Quality Assurance</a>
                         </li>
                         <li class="dropdown">
-                            <a href="videos.php" class="active-trail active">SharePoint Development</a>
+                            <a href="#" class="active-trail active">SharePoint Development</a>
                         </li>
                     </ul>
                 </div>
